@@ -48,9 +48,6 @@ public class Chessboard {
 		pieces.add(new Knight(CellColor.BLACK));
 		pieces.add(new Rook(CellColor.BLACK));
 		pieces.add(new Pawn(CellColor.BLACK));
-
-		for (Piece e : pieces)
-			System.out.println(e.toString());
 		
 		String[][] positions = {
 				{"Tn", "Cn", "Fn", "Dn", "Rn", "Fn", "Cn", "Tn"},
